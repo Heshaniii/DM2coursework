@@ -161,7 +161,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "SupplierSignupForm";
-            this.Text = "SupplierSignupForm";
+            this.Text = "Supplier Signup Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 

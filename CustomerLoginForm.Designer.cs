@@ -38,27 +38,24 @@
             // 
             // cemailBox
             // 
-            this.cemailBox.Location = new System.Drawing.Point(179, 79);
-            this.cemailBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cemailBox.Location = new System.Drawing.Point(268, 122);
             this.cemailBox.Name = "cemailBox";
-            this.cemailBox.Size = new System.Drawing.Size(268, 20);
+            this.cemailBox.Size = new System.Drawing.Size(400, 26);
             this.cemailBox.TabIndex = 0;
             // 
             // cpasswordBox
             // 
-            this.cpasswordBox.Location = new System.Drawing.Point(179, 123);
-            this.cpasswordBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cpasswordBox.Location = new System.Drawing.Point(268, 189);
             this.cpasswordBox.Name = "cpasswordBox";
-            this.cpasswordBox.Size = new System.Drawing.Size(268, 20);
+            this.cpasswordBox.Size = new System.Drawing.Size(400, 26);
             this.cpasswordBox.TabIndex = 1;
             // 
             // cloginButton
             // 
             this.cloginButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.cloginButton.Location = new System.Drawing.Point(195, 203);
-            this.cloginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cloginButton.Location = new System.Drawing.Point(292, 312);
             this.cloginButton.Name = "cloginButton";
-            this.cloginButton.Size = new System.Drawing.Size(133, 46);
+            this.cloginButton.Size = new System.Drawing.Size(200, 71);
             this.cloginButton.TabIndex = 2;
             this.cloginButton.Text = "Login";
             this.cloginButton.UseVisualStyleBackColor = false;
@@ -67,47 +64,43 @@
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Location = new System.Drawing.Point(134, 175);
-            this.resultLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.resultLabel.Location = new System.Drawing.Point(201, 269);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(35, 13);
+            this.resultLabel.Size = new System.Drawing.Size(52, 20);
             this.resultLabel.TabIndex = 3;
             this.resultLabel.Text = "empty";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(90, 80);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(135, 123);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.Size = new System.Drawing.Size(121, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Customer Email";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 123);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(105, 189);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 13);
+            this.label2.Size = new System.Drawing.Size(151, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Customer Password";
             // 
             // CustomerLoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.cloginButton);
             this.Controls.Add(this.cpasswordBox);
             this.Controls.Add(this.cemailBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CustomerLoginForm";
-            this.Text = "CustomerLoginForm";
+            this.Text = "Customer Login Form";
             this.Load += new System.EventHandler(this.CustomerLoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

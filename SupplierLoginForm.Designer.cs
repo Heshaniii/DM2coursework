@@ -39,47 +39,42 @@
             // semailBox
             // 
             this.semailBox.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.semailBox.Location = new System.Drawing.Point(133, 64);
-            this.semailBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.semailBox.Location = new System.Drawing.Point(200, 98);
             this.semailBox.Name = "semailBox";
-            this.semailBox.Size = new System.Drawing.Size(335, 20);
+            this.semailBox.Size = new System.Drawing.Size(500, 26);
             this.semailBox.TabIndex = 0;
             // 
             // spasswordBox
             // 
-            this.spasswordBox.Location = new System.Drawing.Point(133, 109);
-            this.spasswordBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.spasswordBox.Location = new System.Drawing.Point(200, 168);
             this.spasswordBox.Name = "spasswordBox";
-            this.spasswordBox.Size = new System.Drawing.Size(335, 20);
+            this.spasswordBox.Size = new System.Drawing.Size(500, 26);
             this.spasswordBox.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 68);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(60, 105);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.Size = new System.Drawing.Size(110, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Supplier Email";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 112);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(46, 172);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.Size = new System.Drawing.Size(140, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Supplier Password";
             // 
             // sloginButton
             // 
             this.sloginButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.sloginButton.Location = new System.Drawing.Point(193, 200);
-            this.sloginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sloginButton.Location = new System.Drawing.Point(290, 308);
             this.sloginButton.Name = "sloginButton";
-            this.sloginButton.Size = new System.Drawing.Size(133, 46);
+            this.sloginButton.Size = new System.Drawing.Size(200, 71);
             this.sloginButton.TabIndex = 4;
             this.sloginButton.Text = "Login";
             this.sloginButton.UseVisualStyleBackColor = false;
@@ -88,27 +83,24 @@
             // sresultLabel
             // 
             this.sresultLabel.AutoSize = true;
-            this.sresultLabel.Location = new System.Drawing.Point(131, 164);
-            this.sresultLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sresultLabel.Location = new System.Drawing.Point(196, 252);
             this.sresultLabel.Name = "sresultLabel";
-            this.sresultLabel.Size = new System.Drawing.Size(35, 13);
+            this.sresultLabel.Size = new System.Drawing.Size(0, 20);
             this.sresultLabel.TabIndex = 5;
-            this.sresultLabel.Text = "empty";
             // 
             // SupplierLoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 291);
+            this.ClientSize = new System.Drawing.Size(801, 448);
             this.Controls.Add(this.sresultLabel);
             this.Controls.Add(this.sloginButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.spasswordBox);
             this.Controls.Add(this.semailBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SupplierLoginForm";
-            this.Text = "SupplierLoginForm";
+            this.Text = "Supplier Login Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 

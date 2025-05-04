@@ -38,9 +38,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Info;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(18, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 13);
+            this.label1.Size = new System.Drawing.Size(236, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "This is the Customer Homepage";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -48,10 +49,9 @@
             // logoutBtn
             // 
             this.logoutBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.logoutBtn.Location = new System.Drawing.Point(195, 211);
-            this.logoutBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.logoutBtn.Location = new System.Drawing.Point(292, 325);
             this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(133, 46);
+            this.logoutBtn.Size = new System.Drawing.Size(200, 71);
             this.logoutBtn.TabIndex = 2;
             this.logoutBtn.Text = "Log out";
             this.logoutBtn.UseVisualStyleBackColor = false;
@@ -60,24 +60,26 @@
             // welcomeLabel
             // 
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.Location = new System.Drawing.Point(149, 131);
+            this.welcomeLabel.Location = new System.Drawing.Point(224, 202);
+            this.welcomeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(10, 13);
+            this.welcomeLabel.Size = new System.Drawing.Size(14, 20);
             this.welcomeLabel.TabIndex = 3;
             this.welcomeLabel.Text = "-";
             // 
             // CustomerHomepageForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(534, 291);
+            this.ClientSize = new System.Drawing.Size(801, 448);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.logoutBtn);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CustomerHomepageForm";
-            this.Text = "CustomerHomepageForm";
+            this.Text = "Customer Homepage ";
             this.Load += new System.EventHandler(this.CustomerHomepageForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
